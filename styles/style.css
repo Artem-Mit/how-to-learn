@@ -32,6 +32,7 @@
 
 .header__title {
   align-self: center;
+  margin: 0;
   margin-left: 64px;
   max-width: 730px;
   width: 100%;
@@ -141,6 +142,7 @@
   font-size: 60px;
   font-weight: bold;
   text-align: center;
+  margin: 0;
   margin-bottom: 20px;
 }
 
@@ -280,7 +282,7 @@
   width: 90%;
 }
 
-.footer__columns__column_content_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -308,6 +310,9 @@
 
 .footer__column-links {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
